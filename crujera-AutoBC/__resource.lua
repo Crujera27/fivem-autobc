@@ -10,8 +10,8 @@
 resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
 games { 'gta5' }
 author 'Crujera27_3#2328'
-description 'A Auto Chat Broadcast staladone script for FiveM'
-version '1.0.0'
+description 'A Auto Chat Broadcast staladone script for FiveM (DEV BUILD)'
+version '1.0.1'
 client_scripts {
     "client.lua",
     "config.lua" 

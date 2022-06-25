@@ -23,5 +23,5 @@ end)
 RegisterNetEvent("aa:toggle") 
 AddEventHandler("aa:toggle", function()
     config.enabled = not config.enabled 
-    TriggerEvent("chatMessage", config.name,{255,255,255}, "AutoMessage: " .. config.tfmsg[config.enabled])
+    TriggerEvent("chatMessage", config.name,{255,255,255}, ": " .. config.tfmsg[config.enabled])
 end)
