@@ -1,24 +1,36 @@
-This is the first script I ever published. Remember this is redistribute under the GNU GPLv3 license.
-You can easily configure it.
+# Auto Broadcast Script
 
+# Overview
 
+This script allows you to easily configure and schedule automated messages to be sent to your server's chat at specified intervals.
+Installation
 
-Whats this will do?
+Follow these steps to install the script:
 
-This will send message to you server chat every X time you put in the config.
+    Download the Script:
+        Go to the "Release" tab in this repository.
+        Choose the version you want to use and download it.
 
-How to install?
+    Unzip the Folder:
+        Once downloaded, unzip the folder to access its contents.
 
-Download the script in the release tab of this repository. Click the version that you wish.Unzip the folder, after of that drag and drop the folder in to the resources folder. If you put in in a folder that dosn't start when the server starts add this to you server.cfg
+    Move to Resources Folder:
+        Locate your server's resources folder.
+        Drag and drop the unzipped folder into the resources directory.
 
-ensure crujera-AutoBC
+    Configure Server Start (if needed):
+        If the folder you placed the script into doesn't automatically start when the server starts, add the following lines to your server.cfg file:
 
-start crujera-AutoBC
+    cfg
 
-If you have somthing like this:
+    ensure crujera-AutoBC
+    start crujera-AutoBC
 
-ensure [addons]
+        If your server.cfg file already has lines like ensure [addons] and start [addons], you can simply drag and drop the script folder into the appropriate location.
 
-start [addons]
+# Usage
 
-You can just drag and drop to that folder.
+Once installed, you can configure the script by editing its configuration files to set the desired message intervals and content.
+License
+
+This project is distributed under the GNU General Public License version 3. For more details, please refer to the LICENSE file.
